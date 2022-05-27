@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head name="theme-color">
+	<meta name="theme-color" content="#E69BAC">
+	<meta charset="UTF-8">
+	<title>Android 7.0 - Nougat</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		.navbar,.navbar-default .navbar-toggle .icon-bar,.navbar-default .navbar-toggle:hover > .icon-bar,.acordeon__titulo,footer{
+  			background:#E69BAC;
+		}
+		h1,h2,h3,.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+			color:#E69BAC;
+		}
+	</style>
+</head>
+<body>
+	
+	<center>
+
+		 <!--navbar-->
+
+      <nav class="navbar navbar-default navbar-fixed-top customnavbar">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Brand Logo"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">   
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+
+      <br><br><br><br><br>
+
+      <!--body-->
+
+		<div class="mycontainer">
+			<article class="">
+				<img class="animated fadeInLeftBig" src="img/13.png" alt="Android 5.0">
+
+				<div class="information">
+				<h1 class="animated fadeInLeft">android 7.0</h1>
+				<h2 class="animated fadeInLeft">nougat</h2>
+				<p>Nougat, traducido al castellano como turrón, es el nuevo sistema Android cuya llegada se espera para agosto o septiembre de 2016. Como siempre viene con numerosas novedades y mejoras tanto en el apartado funcional como el estético que resumimos a continuación:</p>
+				<ul class="updates">
+					<li>Rediseño del botón de apps recientes con nuevas funciones.</li>
+					<li>Mejores notificaciones para organizarlas mejor y trabajar con ellas en lotes.</li>
+					<li>Posibilidad de interactuar mejor con las notificaciones y configurarlas.</li>
+					<li>Compatibilidad con más de 100 idiomas nuevos.</li>
+					<li>Función multiventana nativa para ejecutar dos apps a la vez en la misma pantalla.</li>
+					<li>Mayor personalización y configuraciones para los atajos rápidos.</li>
+					<li>Forma más inteligente de bloquear llamadas entrantes.</li>
+					<li>Acceso a Instant Apps si necesidad de descargarlas ni instalarlas.</li>
+					<li>Ahorro de datos más inteligente para bloquear el consumo de aplicaciones que se ejecutan en segundo plano.</li>
+				</ul>
+				</div>
+			</article>
+			<hr>
+
+			<article>
+				<h3>Te podria interesar</h3>
+				<div class="av animated flipInX">
+		          <a href="android6-0.html">
+		           <img src="img/12.png" alt="Android 6.0">
+		            <h3 style="color:#58B3E2;">android 6.0</h3>
+		            <h4 style="color:#58B3E2;">marshmallow</h4>
+		          </a>
+		        </div>
+			</article>
+		</div>
+
+    <footer><p>versiones de android© - 2016</p></footer>
+
+	</center>
+
+	<!--scripts-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+	    $('#myTabs a').click(function (e) {
+		  e.preventDefault()
+		  $(this).tab('show')
+		})
+	</script>
+
+</body>
+</html>

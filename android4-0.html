@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head name="theme-color">
+	<meta name="theme-color" content="#01AFD1">
+	<meta charset="UTF-8">
+	<title>Android 4.0 - Ice Cream Sandwich</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		.navbar,.navbar-default .navbar-toggle .icon-bar,.navbar-default .navbar-toggle:hover > .icon-bar,.acordeon__titulo,footer{
+  			background:#01AFD1;
+		}
+		h1,h2,h3,.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+			color:#01AFD1;
+		}
+	</style>
+</head>
+<body>
+	
+	<center>
+
+		 <!--navbar-->
+
+      <nav class="navbar navbar-default navbar-fixed-top customnavbar">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Brand Logo"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">   
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+
+      <br><br><br><br><br>
+
+      <!--body-->
+
+		<div class="mycontainer">
+			<article class="">
+				<img class="animated fadeInLeftBig" src="img/8.png" alt="Android 4.0">
+
+				<div class="information">
+				<h1 class="animated fadeInLeft">android 4.0</h1>
+				<h2 class="animated fadeInLeft">ice cream sandwich</h2>
+				<p>En octubre de 2011, aparecía Android 4.0 Ice Cream Sandwich, una versión basada en Honeycomb pero optimizada para smartphones. Fue uno de los cambios más importantes sufridos por Android en teléfonos, y es considerado como el momento en el que adquirió su mayoría de edad. Ese año superó la cuota de mercado de BlackBerry y se convirtió en el sistema operativo móvil más usado de mundo. Como curiosidad, Google y Samsung planearon una presentación conjunta del SO y el teléfono que habían creado para el 11 de octubre, pero fue suspendida: la muerte de Steve Jobs días antes trastocó sus planes.</p>
+				<ul class="updates">
+					<li>Pantalla de Inicio rediseñada</li>
+					<li>Inclusión de tonos azules en la interfaz en detrimento del verde tradicional</li>
+					<li>Nuevas funcionalidades para el emplazamiento y uso de widgets</li>
+					<li>Fin de los botones físicos. Adaptación automática del SO según el dispositivo</li>
+					<li>Multitarea mejorada</li>
+					<li>Aceleración gráfica mediante hardware</li>
+					<li>Optimización del renderizado de gráficos 3D</li>
+					<li>Videochat en Google Talk</li>
+					<li>Soporte para periféricos USB</li>
+				</ul>
+				</div>
+			</article>
+			<hr>
+
+			<article>
+				<h3>Te podria interesar</h3>
+				<div class="av animated bounceIn">
+					<a href="android3-0.html">
+						<img src="img/7.png" alt="Android Honeycomb">
+						<h3 style="color:#FEC74D;">android 3.0</h3>
+						<h4 style="color:#FEC74D;">honeycomb</h4>
+					</a>
+				</div>
+				<div class="av animated bounceIn">
+			        <a href="android4-1.html">
+			          <img src="img/9.png" alt="">
+			          <h3 style="color:#9CD759;">android 4.1</h3>
+			          <h4 style="color:#9CD759;">jelly bean</h4>
+			        </a>
+			      </div>
+			</article>
+		</div>
+
+    <footer><p>versiones de android© - 2016</p></footer>
+
+	</center>
+
+	<!--scripts-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+	    $('#myTabs a').click(function (e) {
+		  e.preventDefault()
+		  $(this).tab('show')
+		})
+	</script>
+
+</body>
+</html>

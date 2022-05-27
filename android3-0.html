@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head name="theme-color">
+	<meta name="theme-color" content="#FEC74D">
+	<meta charset="UTF-8">
+	<title>Android 3.0 - Honeycomb</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		.navbar,.navbar-default .navbar-toggle .icon-bar,.navbar-default .navbar-toggle:hover > .icon-bar,.acordeon__titulo,footer{
+  			background:#FEC74D;
+		}
+		h1,h2,h3,.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+			color:#FEC74D;
+		}
+	</style>
+</head>
+<body>
+	
+	<center>
+
+		 <!--navbar-->
+
+      <nav class="navbar navbar-default navbar-fixed-top customnavbar">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Brand Logo"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">   
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+
+      <br><br><br><br><br>
+
+      <!--body-->
+
+		<div class="mycontainer">
+			<article class="">
+				<img class="animated fadeInLeftBig" src="img/7.png" alt="Android 3.0">
+
+				<div class="information">
+				<h1 class="animated fadeInLeft">android 3.0</h1>
+				<h2 class="animated fadeInLeft">honeycomb</h2>
+				<p>En febrero de 2011, Google lanza Android 3.0 Honeycomb. Se trata de una actualización específica para tabletas, no compatible con teléfonos, que introducía las líneas maestras de la interfaz en el futuro. Las versiones 3.1 y 3.2 mantuvieron el mismo nombre y fueron básicamente un conjunto de correcciones.</p>
+				<ul class="updates">
+					<li>Pantalla de Inicio rediseñada</li>
+					<li>Inclusión de tonos azules en la interfaz en detrimento del verde tradicional</li>
+					<li>Nuevas funcionalidades para el emplazamiento y uso de widgets</li>
+					<li>Fin de los botones físicos. Adaptación automática del SO según el dispositivo</li>
+					<li>Multitarea mejorada</li>
+					<li>Aceleración gráfica mediante hardware</li>
+					<li>Optimización del renderizado de gráficos 3D</li>
+					<li>Videochat en Google Talk</li>
+					<li>Soporte para periféricos USB</li>
+				</ul>
+				</div>
+			</article>
+			<hr>
+
+			<article>
+				<h3>Te podria interesar</h3>
+				<div class="av animated flipInX">
+			        <a href="android2-3.html">
+			        	<img src="img/6.png" alt="Android Gingerbread">
+			        	<h3 style="color:#FD6164;">android 2.3</h3>
+			        	<h4 style="color:#FD6164;">gingerbread</h4>
+			        </a>
+			    </div>
+			    <div class="av animated flipInX">
+					<a href="android4-0.html">
+						<img src="img/8.png" alt="">
+						<h3 style="color:#01AFD1;">android 4.0</h3>
+						<h4 style="color:#01AFD1;">ice cream sandwich</h4>
+					</a>
+				</div>
+			</article>
+		</div>
+
+    <footer><p>versiones de android© - 2016</p></footer>
+
+	</center>
+
+	<!--scripts-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+	    $('#myTabs a').click(function (e) {
+		  e.preventDefault()
+		  $(this).tab('show')
+		})
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head name="theme-color">
+	<meta name="theme-color" content="#95D050">
+	<meta charset="UTF-8">
+	<title>Android 1.0 - Apple Pie</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		.navbar,.navbar-default .navbar-toggle .icon-bar,.navbar-default .navbar-toggle:hover > .icon-bar,.acordeon__titulo,footer{
+  			background:#95D050;
+		}
+		h1,h2,h3,.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+			color:#95D050;
+		}
+	</style>
+</head>
+<body>
+	
+	<center>
+
+		 <!--navbar-->
+
+      <nav class="navbar navbar-default navbar-fixed-top customnavbar">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Brand Logo"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">   
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+
+      <br><br><br><br><br>
+
+      <!--body-->
+
+		<div class="mycontainer">
+			<article class="">
+				<img class="animated fadeInLeftBig" src="img/1.png" alt="Android Apple Pie">
+
+				<div class="information">
+					<h1 class="animated fadeInLeft">android 1.0</h1>
+					<h2 class="animated fadeInLeft">Apple Pie</h2>
+					<p>La primera versión de <span class="android">android</span> se presenta como un sistema operativo móvil totalmente gratuito y Open Source a diferencia de iOS. Estaba desarrollado sobre el kernel de Linux 2.6. Los primeros terminales con Android estarían disponibles durante el segundo trimestre del año 2008. Google realizó su propia presentación oficial del SDK el 23 de septiembre. La primera versión comercial tenía mucho margen de mejora y apenas inquietó a la competencia, pero ya introducía algunos conceptos que años después son un estándar de los sistemas operativos móviles:</p>
+					<ul class="updates">
+						<li>Menú desplegable de notificaciones.</li>
+						<li>Widgets de escritorio.</li>
+						<li>Android Market, la tienda de apps (no contaba con ningún sistema de pago para usuarios. Todo el catálogo era gratuito).</li>
+						<li>Integración con Google Mail, Contacts y Calendar.</li>
+						<li>Navegador, Maps, Google Talk, reproductor de YouTube y soporte para cámaras.</li>
+					</ul>
+					<div class="acordeon">
+		           		<div class="acordeon__item">
+		                	<input type="radio" name="acordeon" id="item1">
+		                	<label for="item1" class="acordeon__titulo 1__0">Android 1.1, Banana Bread</label>
+		               		<p class="acordeon__contenido">Apenas 3 meses después del lanzamiento de Android 1.0 llegaba la primera actualización, Android 1.1 Banana Bread, concretamente en febrero. No añadía grandes novedades, pero sí corregía numerosos fallos y bugsdetectados en la primera versión e introducía un concepto por entonces poco usado por los rivales que buscaba facilitar la vida al usuario: las actualizaciones automáticas, con las que resultaba muy simple mantener todo el software del terminal al día.</p>
+		            	</div>
+		        	</div>
+				</div>
+			</article>
+			<hr>
+
+			<!--relacionados-->
+			<article>
+				<h3>Te podria interesar</h3>
+				<div class="av animated flipInX">
+				    <a href="android1-5.html">
+				    	<img src="img/2.png" alt="Android Cupcake">
+				    	<h3 style="color:#0089AD;">android 1.5</h3>
+				    	<h4 style="color:#0089AD;">cupcake</h4>
+				    </a>
+				</div>
+				<br>
+			</article>
+
+		</div>
+
+    <footer><p>versiones de android© - 2016</p></footer>
+
+	</center>
+
+	<!--scripts-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+	    $('#myTabs a').click(function (e) {
+		  e.preventDefault()
+		  $(this).tab('show')
+		})
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head name="theme-color">
+ 	<meta name="theme-color" content="#FD4D4F">
+	<meta charset="UTF-8">
+	<title>Android 2.0 - Eclair</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		.navbar,.navbar-default .navbar-toggle .icon-bar,.navbar-default .navbar-toggle:hover > .icon-bar,.acordeon__titulo,footer{
+  			background:#FD4D4F;
+		}
+		h1,h2,h3,.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+			color:#FD4D4F;
+		}
+	</style>
+</head>
+<body>
+	
+	<center>
+
+		 <!--navbar-->
+
+      <nav class="navbar navbar-default navbar-fixed-top customnavbar">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Brand Logo"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">   
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+
+      <br><br><br><br><br>
+
+      <!--body-->
+
+		<div class="mycontainer">
+			<article class="">
+				<img  class="animated fadeInLeftBig" src="img/4.png" alt="Android 2.0">
+
+				<div class="information">
+				<h1 class="animated fadeInLeft">android 2.0</h1>
+				<h2 class="animated fadeInLeft">Eclair</h2>
+				<p>En noviembre de 2009, aparecía Android 2.0 Eclair, uno de los cambios más sustanciales sufridos por Android tanto a nivel de diseño como de arquitectura interna. Era una versión dirigida a dispositivos de mayor tamaño en un tiempo en el que los fabricantes empezaban a diversificar su oferta. La versión 2.1 mantuvo la misma nomenclatura y sólo corrigió algunos fallos, pero su uso fue mayor entre los fabricantes que la versión anterior.</p>
+				<ul class="updates">
+					<li>Soporte para múltiples cuentas de usuario</li>
+					<li>Google Maps Navigation, sistema de navegación GPS gratuito</li>
+					<li>Compatible con Microsoft Exchange</li>
+					<li>Soporte para más pantallas</li>
+					<li>Navegador actualizado, soporte para HTML5 y barra de dirección y búsqueda unificada</li>
+					<li>Función Text to Speech para escribir textos mediante el uso de la voz</li>
+					<li>Nueva pantalla de desbloqueo</li>
+					<li>Zoom digital</li>
+					</ul>
+				</div>
+			</article>
+			<hr>
+
+			<article>
+			<h3>Te podria interesar</h3>
+				<div class="av animated bounceIn">
+					<a href="android1-6.html">
+						<img src="img/3.png" alt="Android Donut">
+						<h3 style="color:#A8D44D;">android 1.6</h3>
+						<h4 style="color:#A8D44D;">donut</h4>
+					</a>
+				</div>
+				<div class="av animated bounceIn">
+					<a href="android2-2.html">
+						<img src="img/5.png" alt="Android Froyo">
+						<h3 style="color:#BD81B4;">android 2.2</h3>
+						<h4 style="color:#BD81B4;">froyo</h4>
+					</a>
+				</div>
+			</article>
+
+	</div>
+
+    <footer><p>versiones de android© - 2016</p></footer>
+
+	</center>
+
+	<!--scripts-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+	    $('#myTabs a').click(function (e) {
+		  e.preventDefault()
+		  $(this).tab('show')
+		})
+	</script>
+
+</body>
+</html>
